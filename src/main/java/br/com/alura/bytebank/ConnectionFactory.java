@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
 
-    public Connection recuperarconexao() {
+    public Connection recuperarConexao() {
 
         try {
             return DriverManager
